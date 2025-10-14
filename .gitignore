@@ -1,0 +1,9 @@
+# Terraform local state
+*.tfstate
+*.tfstate.backup
+
+# Terraform lock file
+.terraform/terraform.tfstate.lock.info
+
+# Terraform plugin directory
+.terraform/
