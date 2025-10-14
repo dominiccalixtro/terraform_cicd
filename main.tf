@@ -50,7 +50,7 @@ resource "aws_security_group" "this" {
 }
 
 resource "aws_instance" "this" {
-  ami                         = "ami-052064a798f08f0d3"
+  ami                         = "ami-088d74defe9802f14"
   instance_type               = "t3.micro"
   subnet_id                   = aws_subnet.public_subnet.id
   associate_public_ip_address  = true
